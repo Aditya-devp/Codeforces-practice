@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-	int n,p,v,t,sum=0;
-	cin>>n;
-	while(n--)
+	int test,p,v,t,sum=0;
+	cin>>test;
+	while(test--)
 	{
 		cin>>p>>v>>t;
 		
