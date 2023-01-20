@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 typedef long long int ll;
 using namespace std;
 int main()
