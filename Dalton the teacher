@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long 
+#define MOD 1e9+7
+#define pb push_back 
+#define loop(i,n)      for(int i=1;i<=n;i++)
+void solve(){
+int n;
+        cin >> n;
+        int count = 0;
+
+        loop(i,n) {
+            int num;
+            cin >> num;
+            if (i == num) {
+                count++;
+            }
+        }
+        cout << (count + 1) / 2 <<endl;
+}
+int main(){
+    ios_base::sync_with_stdio(0);
+    cin. tie(0); cout. tie(0);
+int test;
+cin>>test;
+while(test--){
+solve();
+
+  }
+
+return 0;
+}
